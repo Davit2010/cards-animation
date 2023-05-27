@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: rgb(238, 168, 38);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards-cont {
+  width: 450px;
+  display: flex;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  justify-content: space-between;
+}
+.card {
+  height: 300px;
+  width: 180px;
+  border-radius: 7px;
+  background-color: #fff;
+  transition: 0.2s;
+}
+.rev-card{
+    height: 300px;
+  width: 180px;
+  border-radius: 7px;
+  background-color: #fff;
+  transition: 0.2s;  
+}
